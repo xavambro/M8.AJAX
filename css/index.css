@@ -1,19 +1,29 @@
 .container{
     height:100vh;
-    background-color: purple;
+    background-color: rgb(99, 25, 99);
     color:orange;
     display:flex;
     justify-content:center;
     align-items:center;
+    font-family: 'Comic Neue', cursive;
+}
+.btn{
+    color:black;
 }
 #box {
+    background-color: orange;
+    color: purple;
     padding:10px;
     border:1px solid orange;
     border-radius:1em;
     display:flex;
     flex-direction:column;
+    font-size:20px;
 }
 #box *{
     margin:10px;
+}
 
+i{
+    color:purple;
 }
