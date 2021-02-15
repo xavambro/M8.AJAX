@@ -1,0 +1,19 @@
+.container{
+    height:100vh;
+    background-color: purple;
+    color:orange;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#box {
+    padding:10px;
+    border:1px solid orange;
+    border-radius:1em;
+    display:flex;
+    flex-direction:column;
+}
+#box *{
+    margin:10px;
+
+}
